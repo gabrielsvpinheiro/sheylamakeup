@@ -258,3 +258,12 @@ img {
     font-size: 21px;
     font-weight: 600;
 }
+
+@media (max-width: 800px) {
+    .servicos-container {
+        grid-template-columns: 1fr;
+    }
+    .servicos {
+        height: 100%;
+    }
+}
