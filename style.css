@@ -208,12 +208,14 @@ img {
 
 .servicos-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
     align-items: center;
+    padding-right: 40px;
 }
 
 .servico {
     padding: 20px;
+    padding-left: 80px;
 }
 
 .servico h3 {
