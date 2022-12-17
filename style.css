@@ -275,6 +275,9 @@ img {
 .portfolio {
     background-color: #fff;
     padding: 120px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio-container {
