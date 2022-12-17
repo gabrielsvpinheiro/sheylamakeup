@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #FFF;
+    background-color: #F0f0f0;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -261,9 +261,156 @@ img {
 
 @media (max-width: 800px) {
     .servicos-container {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-wrap: wrap;
     }
     .servicos {
         height: 100%;
     }
 }
+
+.portfolio {
+    background-color: #F0F0F0;
+    padding: 120px;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 60px;
+    gap: 25px;
+}
+
+.portfolio h3 {
+    padding-bottom: 40px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #000;
+}
+
+.portfolio h4 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.portfolio img {
+    box-shadow: 2px 2px 22px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 800px) {
+    .portfolio-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .portfolio {
+        padding: 60px;
+    }
+    .portfolio {
+        margin-top: 1050px;
+    }
+}
+
+.container-contato {
+    max-width: 1000px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 18px 2px rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    background-color: #fff;
+    padding-bottom: 60px;
+    margin-bottom: 140px;
+}
+
+.container-contato h3 {
+    font-weight: 600;
+    font-size: 18px;
+    -webkit-text-fill-color: transparent;
+    background-image: rgb(210,24,110);
+    background-image: linear-gradient(90deg, rgba(210,24,110,1) 35%, rgba(139,23,23,1) 100%);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.container-contato h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #251D1D;
+    padding-bottom: 60px;
+}
+
+.contato-conteudo {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding-top: 30px;
+    gap: 40px;
+}
+
+.paragrafo-contato {
+    color: #535151;
+}
+
+.paragrafo-contato1 {
+    padding-bottom: 20px;
+    color: #000;
+}
+
+.linha-contato {
+    display: flex;
+}
+
+.linha-contato img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+    .sobre-contato {
+        grid-template-columns: 1fr;
+    }
+    .imagem-contato {
+        display: none;
+    }
+}
+
+.contato {
+    background-color: #F0F0F0;
+}
+
+.texto-botao {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #000;
+}
+
+.botao-contato {
+    background-color: transparent;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #b40e5e;
+    cursor: pointer;
+    -webkit-text-fill-color: transparent;
+    background-image: rgb(210,24,110);
+    background-image: linear-gradient(90deg, rgba(210,24,110,1) 35%, rgba(139,23,23,1) 100%);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.footer {
+    background-image: rgb(210,24,110);
+    background-image: linear-gradient(90deg, rgba(210,24,110,1) 35%, rgba(139,23,23,1) 100%);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
