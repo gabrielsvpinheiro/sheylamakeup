@@ -261,6 +261,14 @@ img {
     font-weight: 600;
 }
 
+@media (max-width: 900px) {
+    .servico {
+        padding: 10px;
+        padding-left: 30px;
+    }
+}
+
+
 @media (max-width: 800px) {
     .servicos-container {
         display: flex;
@@ -275,7 +283,7 @@ img {
 .portfolio {
     background-color: #fff;
     padding: 120px;
-    width: 1200px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -308,11 +316,10 @@ img {
 
 @media (max-width: 800px) {
     .portfolio-container {
-        display: flex;
-        flex-wrap: wrap;
+        grid-template-columns: 1fr;
     }
     .portfolio {
-        padding: 60px;
+        padding: 30px;
     }
 }
 
