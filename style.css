@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #fff;
     font-family: 'Montserrat', sans-serif;
@@ -99,6 +103,10 @@ img {
 .introducao-conteudo {
     padding-top: 80px;
     padding-bottom: 120px;
+}
+
+.title {
+    font-family: 'EB Garamond', serif;
 }
 
 @media (max-width: 600px) {
@@ -208,7 +216,7 @@ img {
 
 .servicos-container {
     display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     padding-right: 40px;
 }
